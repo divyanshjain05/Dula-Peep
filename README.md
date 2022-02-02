@@ -43,9 +43,7 @@
 
 ##  🚀 Our Amazing Contributors
 
-<a href="">
-  <img src="" />
-</a>
+
 
 
 ### 🟢 WhatsApp Group
