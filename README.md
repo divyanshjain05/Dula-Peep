@@ -1,6 +1,6 @@
 # dulapeep
 <div align="center">
-<a href="https://c4.wallpaperflare.com/wallpaper/702/297/121/4k-2018-dua-lipa-wallpaper-preview.jpg"><img src="https://www.wallpaperflare.com/search?wallpaper=dua+lipa" alt="dulapeep" border="0"></a>
+<a href="https://c4.wallpaperflare.com/wallpaper/702/297/121/4k-2018-dua-lipa-wallpaper-preview.jpg"><img src="https://c4.wallpaperflare.com/wallpaper/702/297/121/4k-2018-dua-lipa-wallpaper-preview.jpg" alt="dulapeep" border="0"></a>
 
 # **dulapeep : A WhatsApp Bot**
 
