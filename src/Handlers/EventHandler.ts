@@ -44,7 +44,7 @@ export default class EventHandler {
 		? `Goodbye *@${
 				event.participants[0].split("@")[0]
 		  }* 👋🏻, we're probably not gonna miss you.`
-		: `Ara Ara, looks like *@${
+		: `*@${
 					    event.participants[0].split("@")[0]
 		  }* got ${this.client.util.capitalize(event.action)}d${
 				event.actor ? ` by @${event.actor.split("@")[0]}` : ""
@@ -120,7 +120,7 @@ export default class EventHandler {
 			);
 		}
 		if (demote) {
-			const text = `Ara Ara looks like *@${
+			const text = `*@${
 				event.participants[0].split("@")[0]
 			}* got demoted.`;
 			return void this.client.sendMessage(
