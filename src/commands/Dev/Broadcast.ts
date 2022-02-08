@@ -29,13 +29,16 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://c.tenor.com/qGBj-9nx7rsAAAPo/what-the-quintessential-quintuplets.mp4",
-			"https://c.tenor.com/mMRNByRo8XMAAAPo/nakano-yotsuba-disturbance.mp4",
-			"https://c.tenor.com/yQ_zLRi6zUkAAAPo/yotsuba-nakano.mp4",
-			"https://c.tenor.com/DpLoI6rRq4YAAAPo/nakano-yotsuba-ribbon.mp4",
-			"https://c.tenor.com/dEnq15fNv6kAAAPo/aaaa-the-quintessential-quintuplets.mp4",
-			"https://c.tenor.com/i1fRMMMvu38AAAPo/yotsuba-nakano-the-quintessential-quintuplets.mp4",
-			"https://c.tenor.com/l2F9LrkJEKYAAAPo/yotsuba-nakano.mp4",
+			"https://c.tenor.com/QTty8k0XYIwAAAPo/al-alzolanskii.mp4",
+			"https://c.tenor.com/FaTqQp3C2DkAAAPo/dua-dance.mp4",
+			"https://c.tenor.com/stnFodcfqe4AAAPo/dua-lipa-coolstalgia.mp4",
+			"https://c.tenor.com/3DKBpcf8gS4AAAPo/dua-lipa-glitterdua.mp4",
+			"https://c.tenor.com/xjmfJFNRROkAAAPo/dua-lipa-dua-lipa-red-carpet.mp4",
+			"https://c.tenor.com/egn09aWVw70AAAPo/brokengjh-solarnostalgia.mp4",
+			"https://c.tenor.com/HX0p7ko2e1sAAAPo/dua-lipa.mp4",
+			"https://c.tenor.com/20ZYB_t7FgsAAAPo/dua-lipa-coolstalgia.mp4",
+			"https://c.tenor.com/2AE1uOZXrHwAAAPo/dua-lipa-cowgirl.mp4",
+			"https://c.tenor.com/6x6d6UKMaRAAAAPo/dua-lipa.mp4",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
